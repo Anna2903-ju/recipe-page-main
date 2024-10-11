@@ -1,0 +1,144 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+@font-face {
+    font-family: Outfit;
+    src: url(fonts/Outfit-ExtraBold.ttf);
+}
+@font-face {
+    font-family: YoungSerif;
+    src: url(fonts/YoungSerif-Regular.ttf );
+}
+.fish p{
+    font-family: YoungSerif;
+}
+.delta{
+    font-family: Outfit;
+}
+.rub{
+    font-family: Outfit;
+}
+.come{
+    font-family: Outfit;
+}
+.here{
+    font-family: Outfit;
+}
+.you{
+    font-family: Outfit;
+}
+.me{
+    font-family: Outfit;
+}
+.us{
+    font-family: Outfit;
+}
+.nearby{
+    font-family: Outfit;
+}
+.optional{
+    font-family: Outfit;
+
+}
+.near{
+    font-family: Outfit;
+}
+.content{
+    background-color: hsl(0, 0%, 100%); 
+    border: 2px solid transparent;
+    /* width: 600px; */
+    height: 1450px;
+    margin-top: 50px;
+    padding: auto;
+    border-radius: 20px;
+    min-width: 390px;
+}
+.content img{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    height: 200px;
+    width: 550px;
+    border-radius: 20px;
+}
+.content h3{
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.content h4{
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.content h5 {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.id h1{
+    font-family: "YoungSerif", sans-serif;
+    margin-top: 10px;
+    padding-left: 25px;
+}
+
+.id p{
+    margin-top: 5px;
+    padding-left: 25px;
+}
+.many{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 150px;
+    width: 550px;
+    background-color:  hsl(330, 100%, 98%);
+}
+.content p{
+    padding-left: 20px;
+}
+
+
+.many h2 {
+    padding-right: 200px;
+}
+
+#care li::marker{ 
+    list-style-type: disc;
+    color: hsl(332, 51%, 32%); 
+}
+#full li::marker{
+    list-style-type: disc;
+    color:  hsl(14, 45%, 36%);
+}
+#fully li::marker{
+    list-style-type: disc;
+    color:  hsl(14, 45%, 36%);
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+    height: 150px;
+}
+td{
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: hsl(30, 18%, 87%) ;
+}
+tr:nth-child(4) td{
+    border-bottom-style: none;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@media  screen and(min-width: 390px){
+    .content img{
+        /* display: block; */
+        height: 200px;
+        width: 100%;
+    
+    }
+
+}
